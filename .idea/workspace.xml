@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vite-project/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Beach/Beach.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Box.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Camera.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Donut.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Icosahedron.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Palms/Palm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Text3D/textBackground.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/components/WoodBox/WoodBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/main.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Marchuar"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Marchuar/vite-react.git",
+    "accountId": "4557b7c8-a101-4c8b-831c-adc699cc1c16"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="34C8hry5yXFJEPBf3eKeIOeBWyP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/arseniy/WebstormProjects/FisherinoScene/vite-project/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/arseniy/WebstormProjects/FisherinoScene/vite-project/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vite-project/public" />
+      <recent name="$PROJECT_DIR$/vite-project/src/components" />
+      <recent name="$PROJECT_DIR$/vite-project" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="" />
+      <created>1760706316044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760706316044</updated>
+      <workItem from="1760706317088" duration="2872000" />
+      <workItem from="1760709209141" duration="1958000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/vite-project/vite.config.js" />
+        <option value="$PROJECT_DIR$/vite-project/vite.config.d.ts" />
+      </list>
+    </option>
+  </component>
+</project>
