@@ -53,7 +53,7 @@ const Ico: FC<IcoProps> = (props) => {
 
     return (
         <>
-            <mesh position={props.position} ref={props.icoRef} onClick={() => props.moveToObject(position)}>
+            <mesh castShadow position={props.position} ref={props.icoRef} onClick={() => props.moveToObject(position)}>
                 <icosahedronGeometry args={[icoArgs.radius, icoArgs.detail]}/>
 
                 <meshPhysicalMaterial

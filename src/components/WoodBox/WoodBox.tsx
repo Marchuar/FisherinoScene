@@ -22,7 +22,7 @@ const WoodBox: FC<WoodBoxProps> = (props) => {
     textures.map.colorSpace = THREE.SRGBColorSpace
 
     return (
-        <mesh position={props.position}>
+        <mesh position={props.position} receiveShadow>
             <boxGeometry args={[props.size[0], props.size[1], props.size[2]]}></boxGeometry>
 
             <meshStandardMaterial {...textures} />

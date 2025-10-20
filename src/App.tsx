@@ -17,9 +17,11 @@ import TextBackground from "./components/Text3D/textBackground";
 import WoodBox from "./components/WoodBox/WoodBox";
 import Palm from "./components/Palms/Palm";
 import Beach from "./components/Beach/Beach";
+import MySpotLight from "./components/Lights/MySpotLight";
 
 function App() {
     const cameraRef = useRef<THREE.PerspectiveCamera>(null!)
+
     //const [matcap] = useMatcapTexture("FBB43F_FBE993_FB552E_FCDD65", 64)
 
     //const box2Ref = useRef<Object3D>(null)
@@ -163,8 +165,10 @@ function App() {
 
   return (
       <div className="w-full h-screen">
-            <Canvas>
+            <Canvas shadows>
                 <ambientLight intensity={2}></ambientLight>
+
+                <MySpotLight />
 
                 <AnimatedCamera cameraRef={cameraRef}/>
 
@@ -195,7 +199,7 @@ function App() {
 
                 <Environment files="/hdrs/sky_4k.hdr" background />
 
-                <OrbitControls enableZoom={false} enabled={enableOrbit} ref={controlsRef} maxPolarAngle={Math.PI / 2} enablePan={false}></OrbitControls>
+                <OrbitControls enableZoom={true} enabled={enableOrbit} ref={controlsRef} maxPolarAngle={Math.PI / 2} enablePan={false}></OrbitControls>
             </Canvas>
 
             <div>

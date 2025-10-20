@@ -30,7 +30,7 @@ const Box:  FC<BoxProps> = (props: BoxProps) => {
             : new Vector3(props.position[0], props.position[1], props.position[2]);
 
     return (
-        <mesh position={props.position} rotation={[0, 0, 0]} ref={props.boxRef} onClick={() => props.moveToObject(position)}>
+        <mesh castShadow position={props.position} rotation={[0, 0, 0]} ref={props.boxRef} onClick={() => props.moveToObject(position)}>
             <boxGeometry args={[1, 1, 1]}/>
 
             <meshBasicMaterial map={boxTexture} side={DoubleSide}/>

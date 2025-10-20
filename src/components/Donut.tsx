@@ -54,7 +54,7 @@ const Donut: FC<DonutProps> = (props) => {
 
     return (
         <>
-        <mesh rotation={props.rotation} position={props.position} ref={props.donutRef} onClick={() => props.moveToObject(position)}>
+        <mesh castShadow rotation={props.rotation} position={props.position} ref={props.donutRef} onClick={() => props.moveToObject(position)}>
             <torusGeometry args={[donutArgs.radius, donutArgs.tube, donutArgs.radialSegments, donutArgs.tubularSegments]}/>
 
             <meshMatcapMaterial matcap={matcap} side={DoubleSide} />
