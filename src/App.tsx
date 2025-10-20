@@ -48,7 +48,14 @@ function App() {
             closeFolders: true,
         })
 
+        console.log(gui)
+
         guiRef.current = gui
+
+        return () => {
+            gui.destroy()
+            guiRef.current = null
+        }
     }, []);
 
     const moveToObject: (position: Vector3) => Promise<void> = async (position: Vector3) => {
