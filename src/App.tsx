@@ -199,7 +199,7 @@ function App() {
 
                 <Environment files="/hdrs/sky_4k.hdr" background />
 
-                <OrbitControls enableZoom={true} enabled={enableOrbit} ref={controlsRef} maxPolarAngle={Math.PI / 2} enablePan={false}></OrbitControls>
+                <OrbitControls enableZoom={false} enabled={enableOrbit} ref={controlsRef} maxPolarAngle={Math.PI / 2} enablePan={false}></OrbitControls>
             </Canvas>
 
             <div>

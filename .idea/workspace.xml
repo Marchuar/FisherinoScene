@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="add spotLight and shadows">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="website name changed (now: &quot;Fisherino&quot;)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +99,7 @@
       <workItem from="1760709209141" duration="2492000" />
       <workItem from="1760711711613" duration="197000" />
       <workItem from="1760956505072" duration="4786000" />
-      <workItem from="1760962138155" duration="3523000" />
+      <workItem from="1760962138155" duration="3828000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -135,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760965359421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="website name changed (now: &quot;Fisherino&quot;)">
+      <option name="closed" value="true" />
+      <created>1760965702518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760965702518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +163,7 @@
     <MESSAGE value="remove vite-project folder" />
     <MESSAGE value="gui UI bugs are fixed" />
     <MESSAGE value="add spotLight and shadows" />
-    <option name="LAST_COMMIT_MESSAGE" value="add spotLight and shadows" />
+    <MESSAGE value="website name changed (now: &quot;Fisherino&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="website name changed (now: &quot;Fisherino&quot;)" />
   </component>
 </project>
