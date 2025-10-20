@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="gui UI bugs are fixed">
-      <change afterPath="$PROJECT_DIR$/src/components/Lights/MySpotLight.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Box.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Donut.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Donut.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Icosahedron.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icosahedron.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WoodBox/WoodBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WoodBox/WoodBox.tsx" afterDir="false" />
+    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="add spotLight and shadows">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +101,7 @@
       <workItem from="1760709209141" duration="2492000" />
       <workItem from="1760711711613" duration="197000" />
       <workItem from="1760956505072" duration="4786000" />
-      <workItem from="1760962138155" duration="3159000" />
+      <workItem from="1760962138155" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -133,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760959995764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add spotLight and shadows">
+      <option name="closed" value="true" />
+      <created>1760965359421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760965359421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +156,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="remove vite-project folder" />
     <MESSAGE value="gui UI bugs are fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="gui UI bugs are fixed" />
+    <MESSAGE value="add spotLight and shadows" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spotLight and shadows" />
   </component>
 </project>
