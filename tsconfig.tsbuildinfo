@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/box.tsx","./src/components/camera.tsx","./src/components/donut.tsx","./src/components/icosahedron.tsx","./src/components/beach/beach.tsx","./src/components/palms/palm.tsx","./src/components/text3d/textbackground.tsx","./src/components/woodbox/woodbox.tsx","./vite.config.ts"],"errors":true,"version":"5.9.3"}
