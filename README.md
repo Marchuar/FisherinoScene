@@ -1,73 +1,20 @@
-# React + TypeScript + Vite
+# FisherinoScene
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kleines 3D-Projekt, mit dem ich Three.js in React ausprobiert habe. Entstanden ist es während meines Praktikums, nachdem ich etwa die Hälfte des Kurses „Three.js Journey" abgeschlossen hatte. Ich wollte testen, wie man Three.js mit React Three Fiber einsetzt.
 
-Currently, two official plugins are available:
+## Inhalt der Szene
+- Würfel mit einer einfachen Minecraft-Textur
+- Donut mit einer Textur aus einem Zeichentrickfilm
+- Glaskugel (Ikosaeder) aus transparentem Material. Die Anzahl der Polygone lässt sich ändern, die Kugel kann gedreht werden, und die Glättung (glatte Glasoberfläche) lässt sich ein- und ausschalten
+- Strand mit Texturen, Palmen, 3D-Text, Spotlight und Holzkiste
+- Parameter-Editor (lil-gui), mit dem Werte der Objekte live verändert werden
+- Ladebildschirm und Animationen mit GSAP
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technik
+React, TypeScript, Vite, Three.js, React Three Fiber, Drei, GSAP, lil-gui, Tailwind CSS
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Starten
+```bash
+npm install
+npm run dev
 ```
