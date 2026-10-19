@@ -18,14 +18,10 @@ import WoodBox from "./components/WoodBox/WoodBox";
 import Palm from "./components/Palms/Palm";
 import Beach from "./components/Beach/Beach";
 import MySpotLight from "./components/Lights/MySpotLight";
+import LoadingOverlay from "./components/Loading/LoadingOverlay";
 
 function App() {
     const cameraRef = useRef<THREE.PerspectiveCamera>(null!)
-
-    //const [matcap] = useMatcapTexture("FBB43F_FBE993_FB552E_FCDD65", 64)
-
-    //const box2Ref = useRef<Object3D>(null)
-    //const box1Ref = useRef<Object3D>(null)
     const boxRef = useRef<Object3D>(null)
 
     const donutRef = useRef<Object3D>(null)
@@ -200,6 +196,8 @@ function App() {
                 <Environment files="/hdrs/sky_4k.hdr" background />
 
                 <OrbitControls enableZoom={false} enabled={enableOrbit} ref={controlsRef} maxPolarAngle={Math.PI / 2} enablePan={false}></OrbitControls>
+
+                <LoadingOverlay></LoadingOverlay>
             </Canvas>
 
             <div>

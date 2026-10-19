@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="website name changed (now: &quot;Fisherino&quot;)" />
+    <list default="true" id="26a3a234-a358-45bf-a2dc-1c3d453abe2d" name="Changes" comment="Disabled zoom in OrbitControls">
+      <change afterPath="$PROJECT_DIR$/src/components/Loading/LoadingOverlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -45,23 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/arseniy/WebstormProjects/FisherinoScene/vite-project/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/arseniy/WebstormProjects/FisherinoScene/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/Users/arseniy/WebstormProjects/FisherinoScene/vite-project/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/arseniy/WebstormProjects/FisherinoScene/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -84,7 +91,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.242" />
       </set>
     </attachedChunks>
   </component>
@@ -99,7 +106,16 @@
       <workItem from="1760709209141" duration="2492000" />
       <workItem from="1760711711613" duration="197000" />
       <workItem from="1760956505072" duration="4786000" />
-      <workItem from="1760962138155" duration="3828000" />
+      <workItem from="1760962138155" duration="5066000" />
+      <workItem from="1761555360193" duration="3123000" />
+      <workItem from="1761813914369" duration="97000" />
+      <workItem from="1761814593240" duration="38000" />
+      <workItem from="1761816352337" duration="593000" />
+      <workItem from="1761817251938" duration="674000" />
+      <workItem from="1761819877604" duration="849000" />
+      <workItem from="1761898642797" duration="598000" />
+      <workItem from="1761902567549" duration="599000" />
+      <workItem from="1769097732633" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -141,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760965702518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Disabled zoom in OrbitControls">
+      <option name="closed" value="true" />
+      <created>1760966675791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760966675791</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +188,7 @@
     <MESSAGE value="gui UI bugs are fixed" />
     <MESSAGE value="add spotLight and shadows" />
     <MESSAGE value="website name changed (now: &quot;Fisherino&quot;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="website name changed (now: &quot;Fisherino&quot;)" />
+    <MESSAGE value="Disabled zoom in OrbitControls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disabled zoom in OrbitControls" />
   </component>
 </project>
